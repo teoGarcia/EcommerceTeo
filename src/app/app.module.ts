@@ -4,11 +4,15 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { EncabezadoComponent } from './Components/encabezado/encabezado.component';
+import { BarraNavegacionComponent } from './Components/barra-navegacion/barra-navegacion.component';
+import { GaleriaImagenesComponent } from './Components/galeria-imagenes/galeria-imagenes.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    EncabezadoComponent
+    EncabezadoComponent,
+    BarraNavegacionComponent,
+    GaleriaImagenesComponent
   ],
   imports: [
     BrowserModule,
