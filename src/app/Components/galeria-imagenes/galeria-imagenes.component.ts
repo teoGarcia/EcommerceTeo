@@ -7,30 +7,23 @@ import { Component } from '@angular/core';
 })
 export class GaleriaImagenesComponent {
 
-  images: { url: string }[] = [
-    { url: 'image1.jpg' },
-    { url: 'image2.jpg' },
-    { url: 'image3.jpg' },
-    { url: 'image1.jpg' },
-    { url: 'image2.jpg' },
-    { url: 'image3.jpg' },
-    { url: 'image1.jpg' },
-    { url: 'image2.jpg' },
-    { url: 'image3.jpg' },
-    { url: 'image1.jpg' },
-    { url: 'image2.jpg' },
-    { url: 'image3.jpg' },
-    { url: 'image1.jpg' },
-    { url: 'image2.jpg' },
-    { url: 'image3.jpg' }
+  images: { url: string, name:string, price: string }[] = [
+    { url: '../../../assets/images/Portacigarros.jpg', name: 'Caja de Almacenamiento de Cigarros Exp. Automática (No incluye Encendedor)', price: '$5.990' }, 
+    { url: '../../../assets/images/LogoTeoCommerce.jpg', name: 'Imagen 2', price: '$9.000' },
+    { url: '../../../assets/images/LogoTeoCommerce.jpg', name: 'Imagen 3', price: '$9.990' },
+    { url: '../../../assets/images/LogoTeoCommerce.jpg', name: 'Imagen 4', price: '$9.990' },
+    { url: '../../../assets/images/LogoTeoCommerce.jpg', name: 'Imagen 5', price: '$9.990' },
+    { url: '../../../assets/images/LogoTeoCommerce.jpg', name: 'Imagen 6', price: '$9.990' },
+    { url: '../../../assets/images/LogoTeoCommerce.jpg', name: 'Imagen 7', price: '$9.990' },
+    { url: '../../../assets/images/LogoTeoCommerce.jpg', name: 'Imagen 8', price: '$9.990' },
+    { url: '../../../assets/images/LogoTeoCommerce.jpg', name: 'Imagen 9', price: '$9.990' },
+    { url: '../../../assets/images/LogoTeoCommerce.jpg', name: 'Imagen 10', price: '$9.990' },
+    { url: '../../../assets/images/LogoTeoCommerce.jpg', name: 'Imagen 11', price: '$9.990' },
+    { url: '../../../assets/images/LogoTeoCommerce.jpg', name: 'Imagen 12', price: '$9.990' },
+    { url: '../../../assets/images/LogoTeoCommerce.jpg', name: 'Imagen 13', price: '$9.990' },
+    { url: '../../../assets/images/LogoTeoCommerce.jpg', name: 'Imagen 14', price: '$9.990' },
+    { url: '../../../assets/images/LogoTeoCommerce.jpg', name: 'Imagen 15', price: '$9.990' }
     // Agrega más imágenes según tus necesidades
   ];
-
-  name: { alt: string }[] = [
-
-    { alt: 'name1' },
-    { alt: 'name2' },
-
-  ]
 
 }

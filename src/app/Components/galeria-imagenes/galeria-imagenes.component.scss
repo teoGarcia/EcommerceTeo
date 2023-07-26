@@ -1,12 +1,14 @@
 .image-gallery {
     display: flex;
     flex-wrap: wrap;
+    text-align: center;
   }
   
   .image-wrapper {
-    width: 200px;
-    height: 200px;
-    margin: 10px;
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+    margin-bottom: 80px;
   }
   
   img {

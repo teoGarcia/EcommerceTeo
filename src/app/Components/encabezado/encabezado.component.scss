@@ -4,18 +4,14 @@ label{
     font-size: 1rem;
 }
 
-// #divPriEnc{
-
-//     display: flex;
-//     background-color: rgb(130, 150, 142);
-    
-    
-// }
+#encabezado{
+    align-items: center;
+}
 
 .container{
 
-    padding: 0;
-    margin: 0;
+    background-color: rgb(130, 150, 142);
+    
 }
 
 #divLog{
@@ -31,8 +27,17 @@ label{
     float: right;
 }
 #carro{
-    background-color: red;
     display: block;
+}
+
+#floatingText{
+
+    width: 30rem;
+    height: 5px !important;
+}
+
+#divFormFloating{
+    
 }
 
 
