@@ -2,12 +2,25 @@
     display: flex;
     flex-wrap: wrap;
     text-align: center;
+    font-size: 15px;
+    font-family: cursive;
+  }
+
+  #nameImage{
+    margin: -2px;
+  
+  }
+
+  #priceImage{
+
+    // padding-top: -20px;
+
   }
   
   .image-wrapper {
     width: 250px;
     height: 250px;
-    margin: 20px;
+    margin: 15px;
     margin-bottom: 80px;
   }
   
