@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { EncabezadoComponent } from './Components/encabezado/encabezado.component';
 import { BarraNavegacionComponent } from './Components/barra-navegacion/barra-navegacion.component';
 import { GaleriaImagenesComponent } from './Components/galeria-imagenes/galeria-imagenes.component';
+import { InicioComponent } from './Components/inicio/inicio.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     EncabezadoComponent,
     BarraNavegacionComponent,
-    GaleriaImagenesComponent
+    GaleriaImagenesComponent,
+    InicioComponent
   ],
   imports: [
     BrowserModule,
