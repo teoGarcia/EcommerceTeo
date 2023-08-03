@@ -7,6 +7,7 @@ import { EncabezadoComponent } from './Components/encabezado/encabezado.componen
 import { BarraNavegacionComponent } from './Components/barra-navegacion/barra-navegacion.component';
 import { GaleriaImagenesComponent } from './Components/galeria-imagenes/galeria-imagenes.component';
 import { InicioComponent } from './Components/inicio/inicio.component';
+import { OfertasComponent } from './Components/ofertas/ofertas.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { InicioComponent } from './Components/inicio/inicio.component';
     EncabezadoComponent,
     BarraNavegacionComponent,
     GaleriaImagenesComponent,
-    InicioComponent
+    InicioComponent,
+    OfertasComponent
   ],
   imports: [
     BrowserModule,

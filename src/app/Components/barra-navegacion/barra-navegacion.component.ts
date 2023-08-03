@@ -24,7 +24,6 @@ export class BarraNavegacionComponent{
 
   menu: {
     title: string;
-    icon: string;
     link: string;
   }[] = [];
 
@@ -37,23 +36,19 @@ export class BarraNavegacionComponent{
     this.menu = [
       {
         title: 'Inicio',
-        icon: 'fas fa-home',
         link: '/'
       },
       {
         title: 'Productos',
-        icon: 'fas fa-id-card',
-        link: 'Datos-personales'
+        link: 'productos'
       },
       {
         title: 'Ofertas',
-        icon: 'fas fa-skiing',
-        link: 'Habilidades'
+        link: 'ofertas'
       },
       {
         title: 'Contacto',
-        icon: 'fas fa-file-contract',
-        link: 'Proyectos'
+        link: 'contacto'
       }
     ]
   }

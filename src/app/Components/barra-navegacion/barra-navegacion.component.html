@@ -9,7 +9,7 @@
           <li *ngFor="let item of menu" class="navegador__ul-li">
             <a  [routerLink]="[item.link]" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact:
               true}" class="navegador__ul-li-a">
-              <i [class]="item.icon"></i>{{ item.title }}
+              {{ item.title }}
             </a>
           </li>
         </ul>
