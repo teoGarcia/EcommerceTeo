@@ -8,6 +8,7 @@ import { BarraNavegacionComponent } from './Components/barra-navegacion/barra-na
 import { GaleriaImagenesComponent } from './Components/galeria-imagenes/galeria-imagenes.component';
 import { InicioComponent } from './Components/inicio/inicio.component';
 import { OfertasComponent } from './Components/ofertas/ofertas.component';
+import { ContactoComponent } from './contacto/contacto.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { OfertasComponent } from './Components/ofertas/ofertas.component';
     BarraNavegacionComponent,
     GaleriaImagenesComponent,
     InicioComponent,
-    OfertasComponent
+    OfertasComponent,
+    ContactoComponent
   ],
   imports: [
     BrowserModule,
