@@ -7,8 +7,6 @@ import { EncabezadoComponent } from './Components/encabezado/encabezado.componen
 import { BarraNavegacionComponent } from './Components/barra-navegacion/barra-navegacion.component';
 import { GaleriaImagenesComponent } from './Components/galeria-imagenes/galeria-imagenes.component';
 import { InicioComponent } from './Components/inicio/inicio.component';
-import { OfertasComponent } from './Components/ofertas/ofertas.component';
-import { ContactoComponent } from './contacto/contacto.component';
 import { OfertaComponent } from './Components/oferta/oferta.component';
 
 @NgModule({
@@ -18,8 +16,6 @@ import { OfertaComponent } from './Components/oferta/oferta.component';
     BarraNavegacionComponent,
     GaleriaImagenesComponent,
     InicioComponent,
-    OfertasComponent,
-    ContactoComponent,
     OfertaComponent
   ],
   imports: [
